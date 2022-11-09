@@ -1,0 +1,164 @@
+[
+    {
+      "serviceName": "Instrument String Repair",
+      "serviceImage": "https://media.istockphoto.com/id/537517917/photo/guitar-on-wood-in-repair-guitar-maker-luthier-workshop.jpg?s=612x612&w=0&k=20&c=JcNXjT804G1F_cWDm_nnaaCj2G9OnFYgFKLD_Hh8Khk=",
+      "price": 100,
+      "description": "I will come to your place to change strings of any guitar. E.g: Acoustic, Electric, Bass. You can buy the strings beforehand, but if you need me to buy the string, then the string cost will be added with the service charge.",
+      "generalRating": 4.99,
+      "reviews": [
+        {
+          "reviewerName": "Lincoln D Costa",
+          "reviewText": "Amazing Service",
+          "ReviewerImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Lincon_%284039796704%29.jpg/1200px-Lincon_%284039796704%29.jpg",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Shishir Ahmed",
+          "reviewText": "Got to appreciate his punctual, organized, and efficient way of work",
+          "ReviewerImage": "https://yt3.ggpht.com/ytc/AMLnZu_0HmNoCpZhXY-dbzTZqp81PjjbCr3W_IZ5dITspA=s900-c-k-c0x00ffffff-no-rj",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Ziaur Rahman",
+          "reviewText": "Loved his careful way of handling the client's instrument. I can guarantee you a service worth your money!",
+          "ReviewerImage": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ziaur_Rahman_Zia%2C_Shironamhin_12.jpg",
+          "reviewerRating": 5.00
+        }
+      ]
+    },
+    {
+      "serviceName": "Floyd Rose Guitar Tuning/ String Change",
+      "serviceImage": "https://i.redd.it/1gnx74uoay851.jpg",
+      "price": 700,
+      "description": "You can bring your guitar to my store or I can come to your place to tune your guitar. I can also teach you on the first time I do it, so that you won't need my help the next time.",
+      "generalRating": 4.87,
+      "reviews": [
+        {
+          "reviewerName": "Kazi Faisal Ahmed",
+          "reviewText": "Amazing Service",
+          "ReviewerImage": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2019/11/15/artcell.jpg?itok=h6CnR1FV&timestamp=1573802763",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Zafir Huq",
+          "reviewText": "Got to appreciate his punctual, organized, and efficient way of work",
+          "ReviewerImage": "https://yt3.ggpht.com/jpWA_2D85J3SspQbLy6YGo0LEP7gHAoCSejaXGG0Bab15C-nlCSKxsu8Y0i8WFuOYA94zhz0zX8=s900-c-k-c0x00ffffff-no-rj",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Sultan Rafsan Khan",
+          "reviewText": "Loved his careful way of handling the client's instrument. I can guarantee you a service worth your money!",
+          "ReviewerImage": "https://farhanzahin.files.wordpress.com/2014/04/dsc_6594.jpg",
+          "reviewerRating": 5.00
+        }
+      ]
+    },
+    {
+      "serviceName": "Guitar Neck Alignment",
+      "serviceImage": "https://guitarspace.org/wp-content/uploads/2021/04/Best-Guitar-Repair-Kits.png",
+      "price": 650,
+      "description": "You have bring your guitar to my store to avail this service, as the tools required for this task cannot be carried out. You can choose out of 3 types of alignment options.",
+      "generalRating": 4.88,
+      "reviews": [
+        {
+          "reviewerName": "Bakhtiar Hossain",
+          "reviewText": "Amazing Service",
+          "ReviewerImage": "https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2020/06/28/youtube_pic_23.jpg?itok=nhN8QVOc",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Ibrahim Ahmed Kamal",
+          "reviewText": "Got to appreciate his punctual, organized, and efficient way of work",
+          "ReviewerImage": "https://oplly-content.s3.eu-west-2.amazonaws.com/ibrahim-ahmed-kamal-sir.jpg",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Samir Hafiz",
+          "reviewText": "Loved his careful way of handling the client's instrument. I can guarantee you a service worth your money!",
+          "ReviewerImage": "https://methodmelody.com/storage/photo/2021-09-12T12-04-25.681ZSamir-Hafeez.png",
+          "reviewerRating": 5.00
+        }
+      ]
+    },
+    {
+      "serviceName": "Processor Internal Electronics Problem",
+      "serviceImage": "https://adamcroom.com/wp-content/uploads/2021/11/yeh-che-wei-9bUfxR2CLGA-unsplash-scaled.jpg",
+      "price": 1000,
+      "description": "You have bring your processor to my store to avail this service, as the tools required for this task cannot be carried out. The device will be checked and performed changes inside my newly upgraded laboratory, consisting of instruments required to fix, and then test after the change.",
+      "generalRating": 4.80,
+      "reviews": [
+        {
+          "reviewerName": "Oni Hasan",
+          "reviewText": "Amazing Service",
+          "ReviewerImage": "https://i.scdn.co/image/ab6761610000e5ebc69cf430da89a61c741fcb28",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Raef Al Hasan Rafa",
+          "reviewText": "Got to appreciate his punctual, organized, and efficient way of work",
+          "ReviewerImage": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Rafa_at_TSC_DU.jpg",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Diat Khan",
+          "reviewText": "Loved his careful way of handling the client's instrument. I can guarantee you a service worth your money!",
+          "ReviewerImage": "https://i.pinimg.com/originals/7c/37/14/7c37149881f58e930223827bc89931ad.jpg",
+          "reviewerRating": 5.00
+        }
+      ]
+    },
+    {
+      "serviceName": "Guitar Bridge Repair",
+      "serviceImage": "https://cutewallpaper.org/21/guitarras-wallpapers/Guitarra-Electrica-Wallpaper-Fender-183-a-Wallpapertag-.jpg",
+      "price": 1200,
+      "description": "You have bring your guitar to my store to avail this service, as the tools required for this task cannot be carried out. The guitar will be checked and performed changes inside my newly upgraded laboratory, consisting of instruments required to fix, and then test after the change.",
+      "generalRating": 4.98,
+      "reviews": [
+        {
+          "reviewerName": "Bassbaba Sumon",
+          "reviewText": "Amazing Service",
+          "ReviewerImage": "https://i.scdn.co/image/ab6761610000e5eb9c0a93249ea08337039eae3c",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Shakib Chowdhury",
+          "reviewText": "Got to appreciate his punctual, organized, and efficient way of work",
+          "ReviewerImage": "https://oplly-content.s3.eu-west-2.amazonaws.com/img-20221002-190059.jpg",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Farhan Samad",
+          "reviewText": "Loved his careful way of handling the client's instrument. I can guarantee you a service worth your money!",
+          "ReviewerImage": "https://live.staticflickr.com/8510/8381436007_e0862262fd_b.jpg",
+          "reviewerRating": 5.00
+        }
+      ]
+    },
+    {
+      "serviceName": "Amplifier Electronics Problem",
+      "serviceImage": "https://images.unsplash.com/photo-1510104183447-b598400bb62c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3VpdGFyJTIwYW1wfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "price": 1500,
+      "description": "You have bring your amplifier to my store to avail this service, as the tools required for this task cannot be carried out. The device will be checked and performed changes inside my newly upgraded laboratory, consisting of instruments required to fix, and then test after the change.",
+      "generalRating": 4.97,
+      "reviews": [
+        {
+          "reviewerName": "Bassbaba Sumon",
+          "reviewText": "Amazing Service",
+          "ReviewerImage": "https://i.scdn.co/image/ab6761610000e5eb9c0a93249ea08337039eae3c",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Shakib Chowdhury",
+          "reviewText": "Got to appreciate his punctual, organized, and efficient way of work",
+          "ReviewerImage": "https://oplly-content.s3.eu-west-2.amazonaws.com/img-20221002-190059.jpg",
+          "reviewerRating": 5.00
+        },
+        {
+          "reviewerName": "Farhan Samad",
+          "reviewText": "Loved his careful way of handling the client's instrument. I can guarantee you a service worth your money!",
+          "ReviewerImage": "https://live.staticflickr.com/8510/8381436007_e0862262fd_b.jpg",
+          "reviewerRating": 5.00
+        }
+      ]
+    }
+  ]
