@@ -48,7 +48,13 @@ async function run() {
       res.send(service);
     });
 
-    // 
+    // Making API for adding a new service
+    app.post("/services", async (req, res) => {
+      const service = req.body;
+      console.log(service);
+      const result = await serviceCollection.insertOne(service);
+      res.send(result);
+    });
 
     // Making API for reading a review
     app.get("/reviews", async (req, res) => {
@@ -66,12 +72,21 @@ async function run() {
     // Making API for posting a reviews
     app.post("/reviews", async (req, res) => {
       const review = req.body;
+      console.log(review);
       const result = await reviewCollection.insertOne(review);
       res.send(result);
     });
 
+    // Making API for reading the review data to be edited
+    app.get("/reviews/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: ObjectId(id) };
+      const user = await reviewCollection.findOne(query);
+      res.send(user);
+    });
+
     // Making API for editing/updating a review
-    app.put("/reviews/:id", async (req, res) => {
+    app.put("/editreview/:id", async (req, res) => {
       const id = req.params.id;
       const user = req.body;
       const query = { _id: ObjectId(id) };
@@ -82,7 +97,11 @@ async function run() {
           rating: user.rating,
         },
       };
-      const result = await reviewCollection.updateOne(query, updatedUser, option);
+      const result = await reviewCollection.updateOne(
+        query,
+        updatedUser,
+        option
+      );
       res.send(result);
     });
 
