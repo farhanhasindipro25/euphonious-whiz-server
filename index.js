@@ -32,7 +32,7 @@ async function run() {
       res.send(limitedServices);
     });
 
-    // Making API for all services
+    // Making API for reading all services
     app.get("/services", async (req, res) => {
       const query = {}; // searching all
       const cursor = serviceCollection.find(query);
@@ -69,7 +69,7 @@ async function run() {
       res.send(reviews);
     });
 
-    // Making API for posting a reviews
+    // Making API for posting a review
     app.post("/reviews", async (req, res) => {
       const review = req.body;
       console.log(review);
@@ -81,8 +81,8 @@ async function run() {
     app.get("/reviews/:id", async (req, res) => {
       const id = req.params.id;
       const query = { _id: ObjectId(id) };
-      const user = await reviewCollection.findOne(query);
-      res.send(user);
+      const review = await reviewCollection.findOne(query);
+      res.send(review);
     });
 
     // Making API for editing/updating a review
