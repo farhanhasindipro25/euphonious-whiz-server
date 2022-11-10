@@ -48,6 +48,8 @@ async function run() {
       res.send(service);
     });
 
+    // 
+
     // Making API for reading a review
     app.get("/reviews", async (req, res) => {
       let query = {};
@@ -65,6 +67,22 @@ async function run() {
     app.post("/reviews", async (req, res) => {
       const review = req.body;
       const result = await reviewCollection.insertOne(review);
+      res.send(result);
+    });
+
+    // Making API for editing/updating a review
+    app.put("/reviews/:id", async (req, res) => {
+      const id = req.params.id;
+      const user = req.body;
+      const query = { _id: ObjectId(id) };
+      const option = { upsert: true };
+      const updatedUser = {
+        $set: {
+          review: user.review,
+          rating: user.rating,
+        },
+      };
+      const result = await reviewCollection.updateOne(query, updatedUser, option);
       res.send(result);
     });
 
