@@ -56,16 +56,34 @@ async function run() {
       res.send(result);
     });
 
-    // Making API for reading a review
-    app.get("/reviews", async (req, res) => {
+    // Making API for reading all reviews of a specific user
+    app.get("/reviews/:email", async (req, res) => {
       let query = {};
-      if (req.query.email) {
+      if (req.params.email) {
         query = {
-          email: req.query.email,
+          email: req.params.email,
         };
       }
       const cursor = reviewCollection.find(query);
       const reviews = await cursor.toArray();
+      res.send(reviews);
+    });
+
+    // Making API for reading all reviews of a specific service
+    // app.get("/reviews/:id", async (req, res) => {
+    //   const id = req.params.id;
+    //   const query = { serviceID: id };
+    //   const review = await reviewCollection.find(query);
+    //   res.send(review);
+    // });
+
+    app.get("/reviews", async (req, res) => {
+      let query = {};
+      if (req.query.serviceID) {
+        query = { serviceID: req.query.serviceID };
+      }
+      console.log(query);
+      const reviews = await reviewCollection.find(query).toArray();
       res.send(reviews);
     });
 
