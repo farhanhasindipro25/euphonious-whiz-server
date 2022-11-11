@@ -25,7 +25,8 @@ async function run() {
     // Collection for all reviews
     const reviewCollection = client.db("whizDB").collection("reviews");
 
-    app.get("/home", async (req, res) => {
+    // API for reading limited services in homepage
+    app.get("/homepage", async (req, res) => {
       const query = {}; // searching all
       const cursor = serviceCollection.find(query).limit(3);
       const limitedServices = await cursor.toArray();
@@ -70,13 +71,6 @@ async function run() {
     });
 
     // Making API for reading all reviews of a specific service
-    // app.get("/reviews/:id", async (req, res) => {
-    //   const id = req.params.id;
-    //   const query = { serviceID: id };
-    //   const review = await reviewCollection.find(query);
-    //   res.send(review);
-    // });
-
     app.get("/reviews", async (req, res) => {
       let query = {};
       if (req.query.serviceID) {
@@ -95,24 +89,32 @@ async function run() {
       res.send(result);
     });
 
+    // app.get("/reviews/:id", async (req, res) => {
+    //   const id = req.params.id;
+    //   const query = { _id: ObjectId(id) };
+    //   const review = await reviewCollection.findOne(query);
+    //   res.send(review);
+    // });
+
     // Making API for reading the review data to be edited
     app.get("/reviews/:id", async (req, res) => {
       const id = req.params.id;
       const query = { _id: ObjectId(id) };
-      const review = await reviewCollection.findOne(query);
-      res.send(review);
+      const result = await reviewCollection.findOne(query);
+      res.send(result);
     });
 
     // Making API for editing/updating a review
     app.put("/editreview/:id", async (req, res) => {
       const id = req.params.id;
       const user = req.body;
-      const query = { _id: ObjectId(id) };
+      console.log(id, user);
+      const query = { serviceID: id };
       const option = { upsert: true };
       const updatedUser = {
         $set: {
-          review: user.review,
-          rating: user.rating,
+          review: user.reviewText,
+          rating: user.reviewerRating,
         },
       };
       const result = await reviewCollection.updateOne(
